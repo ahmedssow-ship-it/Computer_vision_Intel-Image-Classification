@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🌍 Image Classification App</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+
+        <label>Choose Model:</label>
+        <select name="model">
+            <option value="pytorch">PyTorch</option>
+            <option value="tensorflow">TensorFlow</option>
+        </select>
+
+        <input type="file" name="image" required>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if image_path %}
+        <div class="result">
+            <img src="{{ image_path }}" width="300">
+            <h2>Prediction: {{ prediction }}</h2>
+        </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>

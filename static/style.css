@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+form {
+    margin: 20px;
+}
+
+select, input, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    background-color: #ff7eb3;
+    color: white;
+    cursor: pointer;
+}
+
+.result img {
+    margin-top: 20px;
+    border-radius: 15px;
+}
