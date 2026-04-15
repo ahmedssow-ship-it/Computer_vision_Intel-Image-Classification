@@ -47,7 +47,6 @@ st.markdown("""
     font-size: 16px;
 }
 </style>
-    </style>
 """, unsafe_allow_html=True)
 
 
