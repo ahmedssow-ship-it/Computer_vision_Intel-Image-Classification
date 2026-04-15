@@ -32,33 +32,36 @@ Two Convolutional Neural Network (CNN) models were developed and compared:
 
 ## 📂 Project Structure
 
+```
 project/
 │
 ├── data/
-│ ├── train/
-│ ├── test/
+│   ├── train/
+│   └── test/
 │
 ├── models/
-│ ├── model_pytorch.py
-│ └── model_tensorflow.py
+│   ├── model_pytorch.py
+│   └── model_tensorflow.py
 │
-├── saved_models/ # Trained models
-│ ├── ahmed_model.pth
-│ └── ahmed_model.keras
+├── saved_models/         
+│   ├── ahmed_model.pth
+│   └── ahmed_model.keras
 │
-├── utils/ # Helper functions
-│ ├── data_loader.py
-│ └── data_loader_tf.py
+├── utils/                
+│   ├── data_loader.py
+│   └── data_loader_tf.py
 │
-├── static/ 
-│ ├── style.css
+├── static/
+│   └── style.css
+│
 ├── templates/
-│ ├── index.html
+│   └── index.html
 │
-├── app.py
-├── train.py
-├── predict.py
-├── requirements.txt
-└── README.md
+├── app.py                
+├── train.py               
+├── predict.py             
+├── requirements.txt     
+└── README.md             
+```
 
 ---
