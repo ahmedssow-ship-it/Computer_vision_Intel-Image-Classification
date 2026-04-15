@@ -53,7 +53,6 @@ st.markdown("""
 
 # HEADER
 st.markdown('<div class="main-title">🌍 Image Classification App</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Classify natural scenes using Deep Learning</div>', unsafe_allow_html=True)
 st.markdown(
     """
     <div style='
@@ -82,6 +81,26 @@ st.sidebar.header("⚙️ Settings")
 model_type = st.sidebar.selectbox("Choose Model", ["PyTorch", "TensorFlow"])
 
 uploaded_file = st.sidebar.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
+
+# CLASSES DANS MAIN
+st.markdown(
+    """
+    <h3 style='text-align: center; color:#1f4e79; font-size:28px;'>
+        Predictable classes
+    </h3>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+cols = st.columns(3)
+for i, cls in enumerate(CLASSES):
+    cols[i % 3].markdown(f"""
+    <div class="info-box">
+        <b>{cls}</b>
+    </div>
+    """, unsafe_allow_html=True)
 
 
 # PREPROCESSING
