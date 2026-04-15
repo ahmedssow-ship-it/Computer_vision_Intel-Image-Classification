@@ -101,5 +101,7 @@ pip install -r requirements.txt
 
 # Usage
 
+1. **Train the model**
 ```bash
-
+python train.py
+```
