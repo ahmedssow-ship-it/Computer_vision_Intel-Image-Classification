@@ -1,15 +1,15 @@
-# 🌍 Image Classification using Deep Learning (PyTorch & TensorFlow)
+# Image Classification using Deep Learning (PyTorch & TensorFlow)
 
 This repository implements a complete **image classification pipeline** for natural scenes using Deep Learning.
 
 The goal is to classify images into 6 categories:
 
-- Buildings 🏢  
-- Forest 🌳  
-- Glacier 🧊  
-- Mountain ⛰️  
-- Sea 🌊  
-- Street 🛣️  
+- Buildings 
+- Forest  
+- Glacier  
+- Mountain  
+- Sea  
+- Street  
 
 The project includes:
 - CNN model built from scratch in **PyTorch**
@@ -19,7 +19,7 @@ The project includes:
 
 ---
 
-# 📊 Dataset
+# Dataset
 
 The dataset used is the **Intel Image Classification Dataset**.
 
@@ -40,7 +40,7 @@ Images are 150x150 pixels and distributed into 6 classes:
 
 ---
 
-## 📂 Project Structure
+# Project Structure
 
 ```
 project/
@@ -79,7 +79,7 @@ project/
 
 ---
 
-# ⚙️ Installation
+# Installation
 
 1. **Create environment (optional):**
 
@@ -99,4 +99,7 @@ conda activate cv_project
 pip install -r requirements.txt
 ```
 
+# Usage
+
+```bash
 
