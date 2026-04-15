@@ -36,6 +36,17 @@ st.markdown("""
         font-weight: bold;
         color: #2c3e50;
     }
+    .info-box {
+    padding: 15px;
+    border-radius: 12px;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    margin: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+</style>
     </style>
 """, unsafe_allow_html=True)
 
@@ -43,6 +54,27 @@ st.markdown("""
 # HEADER
 st.markdown('<div class="main-title">🌍 Image Classification App</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Classify natural scenes using Deep Learning</div>', unsafe_allow_html=True)
+st.markdown(
+    """
+    <div style='
+        text-align: center;
+        font-size:17px;
+        color:#6c757d;
+        max-width:750px;
+        margin:auto;
+        line-height:1.6;
+        background-color:#f8f9fa;
+        padding:15px;
+        border-radius:12px;
+    '>
+    Classify natural scenes using <b style="color:#4facfe;">Deep Learning</b><br><br>
+    This application uses deep learning models to classify natural scene images into categories such as
+    <b>buildings, forest, glacier, mountain, sea,</b> and <b>street</b>.  
+    Upload an image and select a model to get an instant prediction.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # SIDEBAR
 st.sidebar.header("⚙️ Settings")
