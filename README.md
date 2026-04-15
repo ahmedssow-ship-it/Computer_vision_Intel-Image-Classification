@@ -102,6 +102,33 @@ pip install -r requirements.txt
 # Usage
 
 1. **Train the model**
+
+- PyTorch
 ```bash
-python train.py
+python train.py --framework pytorch
 ```
+
+- Tensorflow
+```bash
+python train.py --framework tensorflow
+```
+
+2. **Make a prediction**
+
+- PyTorch
+```bash
+python predict.py --framework pytorch --image_path path/to/image.jpg
+```
+
+- Tensorflow
+```bash
+python predict.py --framework tensorflow --image_path path/to/image.jpg
+```
+
+3. **Launch the web application**
+
+- Streamlit (recommended)
+```bash
+streamlit run streamlit_app.py
+```
+
