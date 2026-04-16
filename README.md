@@ -148,8 +148,8 @@ streamlit run app.py
 
 - Users can choose between the two implemented deep learning models:
 
--PyTorch CNN model
--TensorFlow CNN model
+- PyTorch CNN model
+- TensorFlow CNN model
 <p align="center"> <img src="static/2.png" width="650"/> </p>
 
 3. PyTorch Prediction
@@ -160,7 +160,10 @@ streamlit run app.py
 
 4. TensorFlow Prediction
 - Image uploaded
-- Image uploaded
 - Model processes input
 - Predicted class displayed
 <p align="center"> <img src="static/4.png" width="650"/> </p>
+
+# **Live Demo**
+[Click here to try the app]([https://ton-lien-de-deploiement.com](https://computervisionintel-image-classification-btdnpkj8jy3auu8q2teag.streamlit.app/))
+
