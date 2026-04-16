@@ -142,7 +142,7 @@ streamlit run app.py
 - View real-time classification results
 
 1. **Application Interface**
-<p align="center"> <img src="static/screenshots/interface.png" width="650"/> </p>
+<p align="center"> <img src="static/1.png" width="650"/> </p>
 
 2. Model Selection
 
@@ -150,17 +150,17 @@ streamlit run app.py
 
 -PyTorch CNN model
 -TensorFlow CNN model
-<p align="center"> <img src="static/screenshots/model_selection.png" width="650"/> </p>
+<p align="center"> <img src="static/2.png" width="650"/> </p>
 
 3. PyTorch Prediction
 - Image uploaded
 - Model processes input
 - Predicted class displayed
-<p align="center"> <img src="static/screenshots/pytorch_result.png" width="650"/> </p>
+<p align="center"> <img src="static/3.png" width="650"/> </p>
 
 4. TensorFlow Prediction
 - Image uploaded
 - Image uploaded
 - Model processes input
 - Predicted class displayed
-<p align="center"> <img src="static/screenshots/tensorflow_result.png" width="650"/> </p>
+<p align="center"> <img src="static/4.png" width="650"/> </p>
