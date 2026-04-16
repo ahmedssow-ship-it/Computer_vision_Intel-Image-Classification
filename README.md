@@ -165,5 +165,5 @@ streamlit run app.py
 <p align="center"> <img src="static/4.png" width="650"/> </p>
 
 # **Live Demo**
-[Click here to try the app]([https://computervisionintel-image-classification-btdnpkj8jy3auu8q2teag.streamlit.app/])
+[Click here to try the app](https://computervisionintel-image-classification-btdnpkj8jy3auu8q2teag.streamlit.app/)
 
