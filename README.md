@@ -129,6 +129,38 @@ python predict.py --framework tensorflow --image_path path/to/image.jpg
 
 - Streamlit (recommended)
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
+# Demo
+
+- This section demonstrates the user interface of the application and the prediction results using both deep learning models.
+- The system allows users to:
+
+- Upload an image
+- Select a model (PyTorch or TensorFlow)
+- View real-time classification results
+
+1. **Application Interface**
+<p align="center"> <img src="static/screenshots/interface.png" width="650"/> </p>
+
+2. Model Selection
+
+- Users can choose between the two implemented deep learning models:
+
+-PyTorch CNN model
+-TensorFlow CNN model
+<p align="center"> <img src="static/screenshots/model_selection.png" width="650"/> </p>
+
+3. PyTorch Prediction
+- Image uploaded
+- Model processes input
+- Predicted class displayed
+<p align="center"> <img src="static/screenshots/pytorch_result.png" width="650"/> </p>
+
+4. TensorFlow Prediction
+- Image uploaded
+- Image uploaded
+- Model processes input
+- Predicted class displayed
+<p align="center"> <img src="static/screenshots/tensorflow_result.png" width="650"/> </p>
